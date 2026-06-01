@@ -1,5 +1,4 @@
 import type { Project } from "../types/Project";
-
 import project1 from "../assets/LandingPage.png";
 import project2 from "../assets/uiuxFS.png";
 
