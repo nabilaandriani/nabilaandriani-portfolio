@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Custom CSS tambahan */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f7edd8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9b0f06;
+  border-radius: 10px;
+}
+
+@theme {
+
+  --font-dm: "DM Sans", sans-serif;
+  --font-body: "Mulish", sans-serif;
+
+  --color-cream: #eed9b9;
+  --color-cream-light: #f7edd8;
+  --color-cream-skin: #e8c4a8;
+  --color-cream-dark: #d4bc96;
+
+  --color-red: #d53e0f;
+  --color-dark-red: #9b0f06;
+  --color-maroon: #4d000d;
+  --color-deep-red: #5e0006;
+}
